@@ -47,11 +47,13 @@
       font-family: 'Anton', sans-serif;
       font-size: 80px;
       margin-bottom: 20px;
+      text-shadow: 2px 2px 5px black;
     }
 
     .hero p {
       font-size: 24px;
       color: #ccc;
+      text-shadow: 1px 1px 3px black;
     }
 
     .section {
@@ -60,12 +62,17 @@
       margin: 40px auto;
       max-width: 800px;
       border-radius: 10px;
+      text-align: center;
     }
 
     .section h2 {
-      text-align: center;
       font-size: 36px;
       margin-bottom: 20px;
+    }
+
+    .section p {
+      text-align: center;
+      font-size: 18px;
     }
 
     .links {
